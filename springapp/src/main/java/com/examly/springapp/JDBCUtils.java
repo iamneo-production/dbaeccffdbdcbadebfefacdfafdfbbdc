@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class JDBCUtils {
 
 	
-	private static final String URL = "jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true";
+	private static final String URL = "jdbc:mysql://localhost:3306/appdb?createDatabaseIfNotExist=true";
 	private static final String USERNAME = "root";
 	private static final String PASSWORD = "examly";
 
