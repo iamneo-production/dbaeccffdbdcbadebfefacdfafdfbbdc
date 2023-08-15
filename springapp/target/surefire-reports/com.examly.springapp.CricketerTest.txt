@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.CricketerTest
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.814 s - in com.examly.springapp.CricketerTest
+Tests run: 28, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.668 s <<< FAILURE! - in com.examly.springapp.CricketerTest
+W1_Day5testConnection  Time elapsed: 0.025 s  <<< ERROR!
+java.sql.SQLException: Access denied for user 'root'@'127.0.0.1' (using password: YES)
+	at com.examly.springapp.CricketerTest.W1_Day5testConnection(CricketerTest.java:163)
+
+W1_Day5testRetrieveData  Time elapsed: 0.004 s  <<< ERROR!
+java.sql.SQLException: Access denied for user 'root'@'127.0.0.1' (using password: YES)
+	at com.examly.springapp.CricketerTest.W1_Day5testRetrieveData(CricketerTest.java:184)
+
