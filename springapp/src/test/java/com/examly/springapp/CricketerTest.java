@@ -153,11 +153,11 @@ public void W1_day2Clientinterface() {
         assertEquals("Virat Kohli", cricketersList.get(2).getName(), "Oldest cricketer should be Virat Kohli");
     }
         
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/bookstore";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/appdb";
     private static final String JDBC_USER = "root";
-    private static final String JDBC_PASS = "root";
+    private static final String JDBC_PASS = "examly";
 
-    private Connection connection;
+    private Connection connection; 
  @Test
     public void W1_Day5testConnection() throws Exception{
         connection = DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASS);
